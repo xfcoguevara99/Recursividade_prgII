@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "recursao.h"
 int main(void) {
-    fact_rec(5);
-    return 0;
+    int vetor[7] = {1,2,3,5,10},resultado = 0;
+    resultado = busca_bin_rec(vetor,0,4,5);
 }
